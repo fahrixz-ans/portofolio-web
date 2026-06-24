@@ -63,7 +63,7 @@ export const data = {
     {
       id: 1,
       nama: "Website Portofolio",
-      deskripsi: "Website portofolio modern untuk menampilkan profil, keterampilan, pengalaman PKL, dan proyek yang pernah dikerjakan."",
+      deskripsi: "Website portofolio modern untuk menampilkan profil, keterampilan, pengalaman PKL, dan proyek yang pernah dikerjakan.",
       tech: ["React", "Next.js", "Tailwind", "Framer Motion"],
       liveDemo: "https://fahriandriansaputra-portofolio.vercel.app",
       github: "https://github.com/fahrixz-ans/portofolio-web",
