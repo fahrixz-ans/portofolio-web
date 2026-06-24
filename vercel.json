@@ -2,8 +2,8 @@
   "version": 2,
   "rewrites": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "source": "/sitemap.txt",
+      "destination": "/sitemap.txt"
     },
     {
       "source": "/robots.txt",
