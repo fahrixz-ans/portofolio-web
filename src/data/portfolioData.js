@@ -124,7 +124,7 @@ export const data = {
   },
   supabase: {
     url: "https://aiuddjbzgixmchytbxdk.supabase.co",
-    anonKey: "sb_publishable_MjIM3Zvq_bdVUrBfAU9T5Q_uKjf_0GP",
+    anonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFpdWRkamJ6Z2l4bWNoeXRieGRrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIyOTk4ODMsImV4cCI6MjA5Nzg3NTg4M30.d0l2EtuPw9pfCx0k6hMES-UPzAKifuH2D0m3j25xdK8",
   },
 };
 

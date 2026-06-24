@@ -1,40 +1,133 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portofolio Fahri - Web Developer dari Singaraja, Bali. Spesialisasi dalam pengembangan web modern dengan React, Tailwind CSS, dan Node.js." />
-  <meta name="keywords" content="Fahri, Web Developer, Portofolio, React, JavaScript, Singaraja, Bali" />
-  <meta name="author" content="Fahri" />
-  <meta name="theme-color" content="#0a0a0f" />
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://fahri-portfolio.com" />
-  <meta property="og:title" content="Portofolio Fahri — Web Developer" />
-  <meta property="og:description" content="Portofolio Fahri - Web Developer dari Singaraja, Bali. Spesialisasi dalam pengembangan web modern." />
-  <meta property="og:image" content="/og-image.jpg" />
-  <meta property="og:locale" content="id_ID" />
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://fahri-portfolio.com" />
-  <meta property="twitter:title" content="Portofolio Fahri — Web Developer" />
-  <meta property="twitter:description" content="Portofolio Fahri - Web Developer dari Singaraja, Bali." />
-  <meta property="twitter:image" content="/og-image.jpg" />
-  
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/favicon.png" />
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  
-  <title>Portofolio Fahri — Web Developer</title>
-</head>
-<body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- ========== PRECONNECT (Performance) ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- ========== BASIC SEO ========== -->
+    <title>Portofolio Fahri — Web Developer | Singaraja, Bali</title>
+    <meta name="description" content="Portofolio Fahri Andrian Saputra - Web Developer dari Tanggamus, Lampung. Spesialisasi React, JavaScript, TypeScript, dan pengembangan web modern. Lihat proyek dan pengalaman saya." />
+    <meta name="keywords" content="web developer, react developer, frontend developer, bali, singaraja, portofolio, javascript, typescript, vite, tailwind css" />
+    <meta name="author" content="Fahri Andrian Saputra" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="canonical" href="https://fahriandriansaputra-portofolio.vercel.app" />
+    
+    <!-- ========== LANGUAGE & GEO ========== -->
+<meta name="language" content="Indonesian" />
+<meta name="geo.region" content="ID-LA" />
+<meta name="geo.placename" content="Sukabanjar, Kota Agung Timur, Tanggamus, Lampung" />
+<meta name="geo.position" content="-5.52713;104.71736" />
+<meta name="ICBM" content="-5.52713, 104.71736" />
+    
+    <!-- ========== OPEN GRAPH (WhatsApp, Facebook, LinkedIn) ========== -->
+    <meta property="og:title" content="Portofolio Fahri Andrian Saputra — Web Developer" />
+    <meta property="og:description" content="Web Developer dari Tanggamus, Lampung. Spesialisasi React, JavaScript, dan pengembangan web modern. Lihat proyek dan pengalaman saya." />
+    <meta property="og:image" content="https://fahriandriansaputra-portofolio.vercel.app/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Portofolio Fahri Andrian Saputra - Web Developer" />
+    <meta property="og:url" content="https://fahriandriansaputra-portofolio.vercel.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="id_ID" />
+    <meta property="og:site_name" content="Portofolio Fahri Andrian Saputra" />
+    
+    <!-- ========== TWITTER CARD ========== -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Portofolio Fahri Andrian Saputra — Web Developer" />
+    <meta name="twitter:description" content="Web Developer dari Tanggamus, Lampung. Spesialisasi React dan JavaScript." />
+    <meta name="twitter:image" content="https://fahriandriansaputra-portofolio.vercel.app/og-image.jpg" />
+    <meta name="twitter:image:alt" content="Portofolio Fahri Andrian Saputra" />
+    
+    <!-- ========== FAVICON & APP ICONS ========== -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="shortcut icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/favicon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Portofolio Fahri" />
+    
+    <!-- ========== PWA / MANIFEST ========== -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="msapplication-TileColor" content="#0f172a" />
+    <meta name="msapplication-navbutton-color" content="#0f172a" />
+    <meta name="application-name" content="Portofolio Fahri Andrian Saputra" />
+    
+    <!-- ========== STRUCTURED DATA - PERSON (Schema.org) ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fahri Andrian Saputra",
+      "url": "https://fahriandriansaputra-portofolio.vercel.app",
+      "jobTitle": "Web Developer",
+      "description": "Web Developer dari Tanggamus, Lampung. Spesialisasi React, JavaScript, dan pengembangan web modern.",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tanggamus",
+        "addressRegion": "Lampung",
+        "addressCountry": "ID"
+      },
+      "sameAs": [
+        "https://github.com/fahrixz-ans",
+        "https://linkedin.com/in/fahri-andrian-saputra"
+      ],
+      "knowsAbout": ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS", "Web Development"],
+      "image": "https://fahriandriansaputra-portofolio.vercel.app/og-image.jpg"
+    }
+    </script>
+    
+    <!-- ========== STRUCTURED DATA - WEBSITE ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Portofolio Fahri Andrian Saputra",
+      "url": "https://fahriandriansaputra-portofolio.vercel.app",
+      "description": "Portofolio Web Developer dari Tanggamus, Lampung",
+      "publisher": {
+        "@type": "Person",
+        "name": "Fahri Andrian Saputra"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://fahriandriansaputra-portofolio.vercel.app/guestbook",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    
+    <!-- ========== STRUCTURED DATA - WEBPAGE ========== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Portofolio Fahri Andrian Saputra— Web Developer",
+      "description": "Portofolio Web Developer dari Tanggamus, Lampung",
+      "url": "https://fahriandriansaputra-portofolio.vercel.app",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Portofolio Fahri Andrian Saputra"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://fahriandriansaputra-portofolio.vercel.app/og-image.jpg"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
