@@ -7,8 +7,8 @@
   "installCommand": "npm install",
   "rewrites": [
     {
-      "source": "/sitemap.txt",
-      "destination": "/sitemap.txt"
+      "source": "/sitemap.xml",
+      "destination": "/sitemap.xml"
     },
     {
       "source": "/robots.txt",
