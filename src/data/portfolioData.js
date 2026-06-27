@@ -5,7 +5,7 @@ export const data = {
     tagline: "Web Developer",
     subTagline: "Freelance & Web Developer",
     email: "fahriiandriansaputra@email.com",
-    tiktokUrl: "https://tiktok.com/fahriandriansaputra a",
+    tiktokUrl: "https://tiktok.com/fahriandriansaputraa",
     linkedinUrl: "https://www.linkedin.com/in/fahri-andrian-saputra-11a805404?utm_source=share_via&utm_content=profile&utm_medium=member_android",
     instagramUrl: "https://instagram.com/fhrandrnsptra",
     lokasi: "Kotaagung Timur, Tanggamus",
