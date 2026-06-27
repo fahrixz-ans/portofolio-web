@@ -19,10 +19,10 @@ export default function Home() {
   return (
     <>
       <SEO 
-        title="Portofolio Fahri — Web Developer"
-        description="Portofolio Fahri Andrian Saputra - Web Developer dari Singaraja, Bali. Spesialisasi React, JavaScript, TypeScript, dan pengembangan web modern."
+        title="Portofolio Fahri Andrian Saputra — Web Developer"
+        description="Portofolio Fahri Andrian Saputra - Web Developer dari Tanggamus, Lampung. Spesialisasi React, JavaScript, TypeScript, dan pengembangan web modern."
         url="https://fahriandriansaputra-portofolio.vercel.app/"
-        keywords="web developer, react developer, frontend developer, bali, singaraja, javascript, typescript"
+        keywords="web developer, react developer, frontend developer, tanggamus, lampung, fahrixz, tiktok fahri, sukabanjar, kang preset, fahrixz old, fahrixz preset, pkl, talang padang, ambarawa, pringsewu, berita, update, expo, LinkedIn, fahri andrian saputra, alight motion, template capcut, @fahriandriamsaputraa, @fhrandrnsptra, trending, topik, tiktok, x, Facebook, Instagram, capcut, YouTube, video, editor, creator, marketing, karyawan, retail, tanggamus, pihabung, girang, javascript, typescript"
       />
       
       <motion.div
