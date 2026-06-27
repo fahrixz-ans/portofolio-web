@@ -119,12 +119,12 @@ export default function Modal({ project, isOpen, onClose }) {
                   Live Demo
                 </a>
                 <a
-                  href={project.github}
+                  href={project.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-sm"
                 >
-                  GitHub
+                  Tiktok
                 </a>
               </div>
             </div>
